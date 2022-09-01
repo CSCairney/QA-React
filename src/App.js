@@ -1,15 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Login from './login';
-import Car from './Car';
+import game from './Game';
 
 function App() {
   return (
     <>
-     <Login />
-     <Car />
+    <game />
     </>
-      );
+  );
 }
 
 export default App;
