@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Technical from './Technical';
+import Login from './login';
+import Car from './Car';
 
 function App() {
-
   return (
-    <Technical />
-  )
+    <>
+     <Login />
+     <Car />
+    </>
+      );
 }
-
-
-
 
 export default App;
